@@ -9,10 +9,14 @@ import javax.persistence.Id;
 @Data
 @Entity
 public class ServiceRecord {
-    @Id
+     @Id
     @GeneratedValue
     private Long id;
-    private String name, url, shortDescription, longDescription;
+
+    @Column(unique = true)
+    private String name;
+
+    private String url, shortDescription, longDescription;
     private boolean active;
 
 }
