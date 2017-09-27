@@ -1,0 +1,16 @@
+{
+  "name": "sif",
+  "description": "service information framework",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
